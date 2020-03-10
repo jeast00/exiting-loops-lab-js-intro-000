@@ -3,8 +3,8 @@ function breakOut(array, changeValue, stopValue) {
     if(array[i] !== stopValue) {
       changeValue = array[i];
     }
-    return array;
   }
+  return array;
 }
 
 function keepGoing(array, changeValue, skipValue) {
