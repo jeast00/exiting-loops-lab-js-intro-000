@@ -12,7 +12,7 @@ function findBy(array, findFn) {
     if (!findFn) {
       return null;
     } else {
-      return findFn;
+      return array;
     }
   }
 }
