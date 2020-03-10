@@ -6,6 +6,6 @@ function keepGoing(array, changeValue, skipValue) {
 
 }
 
-findBy(array, findFn) {
+function findBy(array, findFn) {
 
 }
