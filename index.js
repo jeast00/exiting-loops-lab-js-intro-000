@@ -3,7 +3,11 @@ function breakOut(array, changeValue, stopValue) {
 }
 
 function keepGoing(array, changeValue, skipValue) {
-
+  for (var i = 0; i < array.length; i++) {
+    if(array[i] === skipValue) {
+      continue;
+    }
+  }
 }
 
 function findBy(array, findFn) {
