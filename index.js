@@ -7,6 +7,7 @@ function keepGoing(array, changeValue, skipValue) {
     if(array[i] === skipValue) {
       continue;
     }
+    array[i] = changeValue;
   }
 }
 
